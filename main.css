@@ -1,0 +1,159 @@
+body {
+    margin: 0;
+    background:#F44708;
+    font-family: 'Dancing Script', cursive;
+    user-select: none;
+    color:white
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+header{
+    background:#158717;
+}
+
+header ::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    float: left;
+    height: 45px;
+}
+
+nav{
+    float: right;
+    overflow: hidden;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    position:relative;
+    display: inline-block;
+    margin-left: 75px;
+    margin-right: 5px;
+    padding: 5px;
+    top:3.5px;
+}
+
+nav a{
+    color:#000080;
+    text-decoration: none;
+    font-size: 19.5px;
+    transition: all 300ms ease-in-out; 
+}
+
+
+nav a:hover{
+    color:#000080;
+    background-color:white;
+}
+
+.container img{
+    margin: 0 -70px;
+    cursor: pointer;
+    position: sticky;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    left: -10px;
+}
+h2{
+    position:relative;
+    bottom: -5px;
+    right: -5px;
+}
+p{
+    font-size:22px;
+    top:-10px;
+    left:20px;
+    position: relative;
+}
+.religion{
+    position: absolute;
+            top: 350px;
+           left: 120px;
+           height: 410px;
+           width: 300px;
+           background-color:#df9525;
+           overflow: auto;
+           word-wrap: break-word;
+}
+.culture{
+    position: absolute;
+    top: 350px;
+   left: 450px;
+   height: 410px;
+   width: 300px;
+   background-color:#df9525;
+   text-align: center;
+   overflow: auto;
+   word-wrap: break-word;
+}
+.images{
+    position: absolute;
+    top: 350px;
+   left: 850px;
+   height: 400px;
+   width: 500px;
+   background-color:#df9525;
+   text-align: center;
+   background-image: url('https://source.unsplash.com/collection/1227');
+   background-repeat: no-repeat;
+   background-size:cover;
+}
+h3{
+    position: relative;
+    bottom: -410px;
+}
+#btn{
+    position: relative;
+    top: -80px;
+    left:207.5px;
+    text-align: center;
+    background-color:#158717;
+    border-color: #df9525;
+    transition: all 500ms ease; 
+}
+#btn:focus{
+    box-shadow: none;
+}
+#btn:hover{
+    background-color: #df9525;
+    border-color:#158717;
+}
+
+#text,#text2{
+    text-align: center;
+}
+::-webkit-scrollbar {
+    width: 7.5px;
+    height: 7.5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }

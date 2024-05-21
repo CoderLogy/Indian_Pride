@@ -17,8 +17,8 @@
         function home(){
             document.getElementsByClassName('logo').innerHTML = window.location.href = "index.html"
         }
-        function imh(){
-            document.getElementById("hello").style.backgroundImage= "url(https://source.unsplash.com/collection/1227?sig="+Math.random()*90+300*90+200*90+")";
+        function random_image(){
+            document.getElementById("images").style.backgroundImage= "url(https://source.unsplash.com/collection/1227?sig="+Math.random()*90+300*90+200*90+")";
         }
     </script>
 </head>
@@ -57,9 +57,9 @@ People across the world are always in awe how closely the diffrent idelogies liv
     India has very diffrent old heritage and great taste of people with old culture and traditions that even follows till now.
 </p>
 </div>
-<div class="images" id="hello">
+<div class="images" id="images">
 <h3>Cool &nbsp India's &nbsp images</h3>
-<button type="button" class="btn btn-secondary" id="btn" onclick="imh();">Click here</button>
+<button type="button" class="btn btn-secondary" id="btn" onclick="random_images();">Click here</button>
 </div>
 </body>
 </html>
